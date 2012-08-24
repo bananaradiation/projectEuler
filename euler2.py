@@ -22,8 +22,8 @@ def fib(n):
 		if fibVal[y] % 2 ==0:
 			even.append(fibVal[y])
 	# print even
-	print sum(even) 
-fib(70)
+	return sum(even) 
+print fib(70)
 
 		
 	
